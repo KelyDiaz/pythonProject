@@ -1,6 +1,6 @@
 class Coche:
     marca = ""
-    color = "blanco"
+    color = "Blanco"
 
     def __init__(self, marca, color):
         self.marca = marca
@@ -8,7 +8,9 @@ class Coche:
 
 
 # Aca se esta instanciando la clase
-coche1 = Coche("toyota", "negro")
+coche1 = Coche("Toyota", "Negro")
+#Se modifica una variable del objeto
+coche1.color="Azul"
 coche_lujo = Coche("BMW", "Plata")
 
 print(f'Marca: {coche1.marca}, Color: {coche1.color}')
